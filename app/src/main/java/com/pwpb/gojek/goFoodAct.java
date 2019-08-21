@@ -33,6 +33,7 @@ public class goFoodAct extends AppCompatActivity {
                 intent.putExtra("pesan", pesan);
                 intent.putExtra("alamat", alamat);
                 startActivity(intent);
+                finish();
             }
         });
     }
